@@ -15,5 +15,4 @@ def form_dict(text_numbers: str):
 
 
 dict_num = form_dict('128521 382')
-for key, item in dict_num.items():
-    print(f'{key = }\t{item = }')
+print(f'{dict_num = }')
