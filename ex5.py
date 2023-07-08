@@ -18,5 +18,5 @@ def calc_bonus(names: list, rates: list, bonus_rate: list):
 lst_names: list = ['Pifya', 'Smith', 'Neo']
 lst_rate: list = [10, 11, 69]
 lst_bonus_rate: list = ['10.50%', '34.44%', '69.96%']
-bunuses = calc_bonus(lst_names, lst_rate, lst_bonus_rate)
-print(f'Here goes the money {bunuses = }')
+bonuses = calc_bonus(lst_names, lst_rate, lst_bonus_rate)
+print(f'Here goes the money {bonuses = }')
